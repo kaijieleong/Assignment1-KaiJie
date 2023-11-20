@@ -1,6 +1,8 @@
 # Assignment1-KaiJie
 
 Assignment1
+The idea was to create a web application to allow user to put in task, journal and those task can be access by other user which are in a team
+
 
 Function
 1.Calender

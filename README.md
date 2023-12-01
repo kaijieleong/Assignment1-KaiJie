@@ -1,5 +1,3 @@
-WireFrame: [https://www.figma.com/file/bxQ46U8wrjF9WOQAom1nEJ/FED?type=design&node-id=0%3A1&mode=design&t=1C857znkH2hTPxnq-1]
-
 
 # MyHelper
 "MyHelper" is an project designed to transform student experience by providing a user-friendly platform. The complete tool aims to streamline various aspects of student life. offering features that enchance organization and collaboration. And with MyHelper, students can manage their schedules using the calendar features, which ensure that they will never miss an important deadline or event. MyHelper also speed up efficiency through its teams feature, facilitate collaboration on projects and assignments. One of the features is to allow users to create and manage their events, which is also able to share with the teams to allow easy coordination of group activities and study sessions. Additionally, MyHelper provide a space for users to jot down and organize their thoughts, lecture summaries, and study materials. 

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+
+  <link href="/CSS/Style.css" rel="stylesheet" type="text/css">
+  <link href="/CSS/NotesStyle.css" rel="stylesheet" type="text/css">
+  <link href="/CSS/TaskStyle.css" rel="stylesheet" type="text/css">
+  <title>DashBoard</title>
+</head>
+
+<body>
+  <div class="container">
+    <aside>
+      <div class="toggle">
+        <h2>MyHelper<span class="danger"></span></h2>
+
+
+        <div class="close" id="close-btn">
+          <span class="material-symbols-outlined"> close </span>
+        </div>
+      </div>
+
+      <div class="sidebar">
+        <a href="/HTML/Index.html">
+          <span class="material-symbols-outlined">dashboard</span>
+          <h3>Dashboard</h3>
+        </a>
+        <a href="/HTML/Calendar.html">
+          <span class="material-symbols-outlined"> calendar_month </span>
+          <h3>Calendar</h3>
+        </a>
+        <a href="/HTML/Tasks.html">
+          <span class="material-symbols-outlined">task</span>
+          <h3>Tasks</h3>
+        </a>
+        <a href="/HTML/Notes.html">
+          <span class="material-symbols-outlined">note</span>
+          <h3>Notes</h3>
+        </a>
+
+      </div>
+    </aside>
+    <main>
+      <h1>Dashboard</h1>
+      <div class="task">
+        <div class="status">
+          <section class="task-list">
+            <h2>Tasks</h2>
+
+            <div id="task-list"></div>
+          </section>
+        </div>
+      </div>
+      <div class="notes">
+        <div class="status">
+          <div class="notes" id="app">
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="right-section">
+      <div class="nav">
+        <button id="menu-btn">
+          <span class="material-symbols-outlined">menu</span>
+        </button>
+        <div class="dark-mode">
+          <span class="material-symbols-outlined">light_mode</span>
+          <span class="material-symbols-outlined">dark_mode</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="/JS/Index.js"></script>
+  <script src="/JS/NotesScript.js"></script>
+  <script src="/JS/TaskScript.js"></script>
+</body>
+
+</html>

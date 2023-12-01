@@ -120,10 +120,8 @@ function nextMonth() {
   }
   initCalendar();
 }
-
 prev.addEventListener("click", prevMonth);
 next.addEventListener("click", nextMonth);
-
 initCalendar();
 
 //function to add active on day
@@ -299,6 +297,7 @@ addEventSubmit.addEventListener("click", () => {
   const eventTitle = addEventTitle.value;
   const eventTimeFrom = addEventFrom.value;
   const eventTimeTo = addEventTo.value;
+
   if (eventTitle === "" || eventTimeFrom === "" || eventTimeTo === "") {
     alert("Please fill all the fields");
     return;
@@ -439,3 +438,4 @@ function convertTime(time) {
   time = timeHour + ":" + timeMin + " " + timeFormat;
   return time;
 }
+

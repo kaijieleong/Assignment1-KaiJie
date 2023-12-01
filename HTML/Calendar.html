@@ -1,19 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width" />
-  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  <link href="Style.css" rel="stylesheet" type="text/css" />
-  <link href="calendarStyle.css" rel="stylesheet" type="text/css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link href="/CSS/Style.css" rel="stylesheet" type="text/css">
+  <link href="/CSS/calendarStyle.css" rel="stylesheet" type="text/css">
   <title>Calendar</title>
 </head>
 
@@ -22,7 +18,9 @@
     <div class="container">
       <aside>
         <div class="toggle">
-          <h2>Taskfiy<span class="danger"></span></h2>
+          <h2>MyHelper<span class="danger"></span></h2>
+
+
           <div class="close" id="close-btn">
             <span class="material-symbols-outlined"> close </span>
           </div>
@@ -30,25 +28,23 @@
 
 
         <div class="sidebar">
-          <a href="Index.html">
+          <a href="/HTML/Index.html">
             <span class="material-symbols-outlined">dashboard</span>
             <h3>Dashboard</h3>
           </a>
-          <a href="Calendar.html">
+          <a href="/HTML/Calendar.html">
             <span class="material-symbols-outlined"> calendar_month </span>
             <h3>Calendar</h3>
           </a>
-          <a href="Tasks.html">
+          <a href="/HTML/Tasks.html">
             <span class="material-symbols-outlined">task</span>
             <h3>Tasks</h3>
-            <a href="Notes.html">
-              <span class="material-symbols-outlined">note</span>
-              <h3>Notes</h3>
-            </a>
-            <a href="#">
-              <span class="material-symbols-outlined">settings</span>
-              <h3>settings</h3>
-            </a>
+          </a>
+          <a href="/HTML/Notes.html">
+            <span class="material-symbols-outlined">note</span>
+            <h3>Notes</h3>
+          </a>
+
 
         </div>
       </aside>
@@ -76,7 +72,7 @@
                   <div class="days"></div>
                   <div class="goto-today">
                     <div class="goto">
-                      <input type="text" placeholder="mm/yyyy" class="date-input" />
+                      <input type="text" placeholder="mm/yyyy" class="date-input">
                       <button class="goto-btn">Go</button>
                     </div>
                     <button class="today-btn">Today</button>
@@ -96,13 +92,13 @@
                   </div>
                   <div class="add-event-body">
                     <div class="add-event-input">
-                      <input type="text" placeholder="Event Name" class="event-name" />
+                      <input type="text" placeholder="Event Name" class="event-name">
                     </div>
                     <div class="add-event-input">
-                      <input type="text" placeholder="Event Time From" class="event-time-from" />
+                      <input type="text" placeholder="Event Time From" class="event-time-from">
                     </div>
                     <div class="add-event-input">
-                      <input type="text" placeholder="Event Time To" class="event-time-to" />
+                      <input type="text" placeholder="Event Time To" class="event-time-to">
                     </div>
                   </div>
                   <div class="add-event-footer">
@@ -110,7 +106,7 @@
                   </div>
                 </div>
               </div>
-              
+
               <button class="add-event">
                 <i class="fas fa-plus"></i>
               </button>
@@ -131,8 +127,9 @@
       </div>
     </div>
   </div>
-  <script src="Index.js"></script>
-  <script src="CalendarScript.js"></script>
+  <script src="/JS/Index.js"></script>
+  <script src="/JS/CalendarScript.js"></script>
+
 </body>
 
 </html>
